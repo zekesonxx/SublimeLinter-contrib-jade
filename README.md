@@ -1,7 +1,7 @@
 SublimeLinter-contrib-jade
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-jade.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-jade)
+[![Build Status](https://travis-ci.org/zekesonxx/SublimeLinter-contrib-jade.svg?branch=master)](https://travis-ci.org/zekesonxx/SublimeLinter-contrib-jade)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [jade](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
 
@@ -23,7 +23,7 @@ Before using this plugin, you must ensure that `jade` is installed on your syste
 1. If you are using `zsh` and `oh-my-zsh`, do not load the `nvm` plugin for `oh-my-zsh`.
 
 
-**Note:** This plugin requires `jade` __version__ or later.
+**Note:** This plugin requires `jade` __1.5__ or later.
 
 ### Linter configuration
 In order for `jade` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
@@ -41,13 +41,6 @@ To install via Package Control, do the following:
 
 ## Settings
 For general information on how SublimeLinter works with settings, please see [Settings][settings]. For information on generic linter settings, please see [Linter Settings][linter-settings].
-
-In addition to the standard SublimeLinter settings, SublimeLinter-contrib-jade provides its own settings. Those marked as “Inline Setting” or “Inline Override” may also be [used inline][inline-settings].
-
-|Setting|Description|Inline Setting|Inline Override|
-|:------|:----------|:------------:|:-------------:|
-|foo|Something.|&#10003;| |
-|bar|Something else.| |&#10003;|
 
 ## Contributing
 If you would like to contribute enhancements or fixes, please do the following:

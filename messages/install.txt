@@ -8,3 +8,5 @@ Before this plugin will activate, you *must*
 follow the installation instructions here:
 
 https://github.com/zekesonxx/SublimeLinter-contrib-jade
+
+Additionally, be aware that this plugin does NOT work realistically, if using it on more than single file it starts to have issues.
